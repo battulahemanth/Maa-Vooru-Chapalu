@@ -1,16 +1,8 @@
-# React + Vite
+# Maa Vooru Chapalu
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Build and deploy
 
-Currently, two official plugins are available:
+- Netlify: use `npm run build`; the default build uses the domain root.
+- GitHub Pages: use `npm run build:github-pages`; this build uses the `/Maa-Vooru-Chapalu/` repository path.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Make sure the GitHub Pages deployment runs `npm run build:github-pages`; the Netlify build command should remain `npm run build`.
